@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    build: ./drf_learner
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./drf_learner:/app
+    command: poetry run python -Wd manage.py runserver 0.0.0.0:8000
