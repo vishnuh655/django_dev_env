@@ -7,9 +7,6 @@ authors = ["vishnuh655 <vishnuh655@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Django = "^4.0.2"
-djangorestframework = "^3.13.1"
-Markdown = "^3.3.6"
-django-filter = "^21.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
